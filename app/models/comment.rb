@@ -1,3 +1,3 @@
-giclass Comment < ActiveRecord::Base
+class Comment < ActiveRecord::Base
   belongs_to :idea
 end
